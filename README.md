@@ -10,5 +10,5 @@ The goal was to learn core web development skills while designing an interactive
 
 ## Process & Documentation
 - **Iteration history:** Iteration history: See `Iteration-Process-Slides.pdf`  
-- **UX testing:** Feedback from 5 users - See `UX Testing Feedback.pdf`
+- **UX testing:** Feedback from 5 users - see `UX Testing Feedback.pdf`
 
