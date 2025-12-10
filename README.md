@@ -9,6 +9,6 @@ The goal was to learn core web development skills while designing an interactive
 - Designed and improved using an iterative development process
 
 ## Process & Documentation
-- **Iteration history:** See 'Iteration-Process-Slides.pdf'
+- **Iteration history:** See 'Iteration-Process-Slides.pdf'  
 - **UX testing:** Feedback from 5 users - see 'UX Testing Feedback.pdf'
 
