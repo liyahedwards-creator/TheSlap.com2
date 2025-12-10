@@ -9,7 +9,7 @@ const italy = document.getElementById("italyy");
 const plank = document.getElementById("sikowitzPlay");
 const siko = document.getElementById("witz");
 
-const vega = document.getElementById("tori");
+const hot = document.getElementById("tori");
 const pages = document.getElementById("cast");
 const har = document.getElementById("andre");
 const veg = document.getElementById("trina");
@@ -50,14 +50,12 @@ function playSlap() {
   win.pause();
   arts.pause();
   hot.pause();
-  vega.pause();
   har.pause();
   veg.pause();
   shap.pause();
   val.pause();
   oli.pause();
   wes.pause();
- 
 
   img.classList.remove("translucent");
   italy.classList.remove("translucent");
@@ -68,6 +66,7 @@ function playSlap() {
   avatar.classList.remove("translucent");
   wood.classList.remove("translucent");
   link.classList.remove("translucent");
+  pages.classList.remove("translucent");
 }
 
 function swapBound() {
@@ -77,6 +76,12 @@ function swapBound() {
   win.pause();
   arts.pause();
   hot.pause();
+  har.pause();
+  veg.pause();
+  shap.pause();
+  val.pause();
+  oli.pause();
+  wes.pause();
 
   if (img.style.display !== "none") {
     img.style.display = "none";
@@ -104,6 +109,12 @@ function barkBarking() {
   arts.pause();
   hot.pause();
   bark.play();
+  har.pause();
+  veg.pause();
+  shap.pause();
+  val.pause();
+  oli.pause();
+  wes.pause();
   italy.classList.add("translucent");
 }
 
@@ -118,6 +129,12 @@ function sikowitzPlank() {
   arts.pause();
   hot.pause();
   plank.play();
+  har.pause();
+  veg.pause();
+  shap.pause();
+  val.pause();
+  oli.pause();
+  wes.pause();
   siko.classList.add("translucent");
 }
 
@@ -132,21 +149,21 @@ function hotPages() {
   win.pause();
   arts.pause();
 
-  vega.pause();
+  hot.pause();
   har.pause();
   veg.pause();
   shap.pause();
   val.pause();
   oli.pause();
   wes.pause();
-//pause ALL cast sounds
+  //pause ALL cast sounds
 
   wholeCast[x].play();
   x = x + 1;
   console.log(x);
 
-  if( x > 6){
-    x=0
+  if (x > 6) {
+    x = 0;
     pages.classList.add("translucent");
   }
 }
@@ -162,6 +179,12 @@ function makeRex() {
   arts.pause();
   hot.pause();
   rex.play();
+  har.pause();
+  veg.pause();
+  shap.pause();
+  val.pause();
+  oli.pause();
+  wes.pause();
   make.classList.add("translucent");
 }
 
@@ -176,6 +199,12 @@ function moneyMoneyMoney() {
   arts.pause();
   hot.pause();
   money.play();
+  har.pause();
+  veg.pause();
+  shap.pause();
+  val.pause();
+  oli.pause();
+  wes.pause();
   love.classList.add("translucent");
 }
 
@@ -190,6 +219,12 @@ function winnerAvi() {
   arts.pause();
   hot.pause();
   win.play();
+  har.pause();
+  veg.pause();
+  shap.pause();
+  val.pause();
+  oli.pause();
+  wes.pause();
   avatar.classList.add("translucent");
 }
 
@@ -204,6 +239,12 @@ function hollywoodArts() {
   win.pause();
   hot.pause();
   arts.play();
+  har.pause();
+  veg.pause();
+  shap.pause();
+  val.pause();
+  oli.pause();
+  wes.pause();
   wood.classList.add("translucent");
 }
 function siteLinks() {
@@ -218,5 +259,6 @@ function siteLinks() {
   arts.pause();
   hot.pause();
   site.play();
+
   link.classList.add("translucent");
 }
