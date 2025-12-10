@@ -1,11 +1,14 @@
 # TheSlap.com2
+
 This is my first front-end website, built using **HTML**, **CSS**, and **vanilla JavaScript**.
 The goal was to learn core web development skills while designing an interactive user experience.
+
 ## Features
-Fully custom responsive layout and styling
+- Fully custom responsive layout and styling
 - Interactive elements built with vanilla JS
-Designed and improved using an iterative development process
+- Designed and improved using an iterative development process
+
 ## Process & Documentation
-- **Iteration history:** See "Iteration-Process-Slides.pdf*
-**UX testing:** Feedback from 5 users - see "UX Testing Feedback.pdf'
+- **Iteration history:** See 'Iteration-Process-Slides.pdf'
+- **UX testing:** Feedback from 5 users - see 'UX Testing Feedback.pdf'
 
