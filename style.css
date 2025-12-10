@@ -1,0 +1,231 @@
+/* the 100vh and 100vw set the size of the body to fill the viewport (screen) */
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin: 0;
+  background-image: url("images/bg.png"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100% 100%; /* Resize the background image to cover the entire container */
+}
+/* build your layout */
+.outside {
+  height: 100%;
+  width: 51.1%;
+}
+.outside2 {
+  height: 100%;
+  width: 49.9%;
+}
+.container {
+  height: 85%;
+  width: 95%;
+  display: block;
+}
+.slap {
+  height: 10%;
+  width: 100%;
+  display: block;
+}
+.top-row {
+  height: 55%;
+  width: 100%;
+  display: flex;
+}
+.dub-col {
+  height: 100%;
+  width: 40%;
+}
+.right-col {
+  height: 100%;
+  width: calc(100% / 1.5);
+  display: block;
+}
+.top-right {
+  height: 70%;
+  width: 100%;
+}
+.bot-right {
+  height: 30%;
+  width: 100%;
+}
+.mid-row {
+  height: 15%;
+  width: 100%;
+}
+.bot-row {
+  height: 30%;
+  width: 100%;
+  display: flex;
+}
+.bot-dub {
+  height: 100%;
+  width: calc(100% / 3);
+}
+.top-left {
+  height: 55%;
+  width: 100%;
+}
+.bot-left {
+  height: 45%;
+  width: 100%;
+}
+.square {
+  height: 100%;
+  width: calc(100% / 1.5);
+  display: block;
+}
+.right-row {
+  height: 55%;
+  width: 100%;
+  display: flex;
+}
+.low-right {
+  height: 45%;
+  width: 100%;
+}
+.box {
+  height: 100%;
+  width: 50%;
+}
+.disappear {
+}
+/* this will make ALL <img> elements at most 100% of their PARENT! */
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+video {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* this class goes on the PARENT div of the image! */
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* colors to see divs */
+.white {
+  background-color: #ffffff;
+}
+/* enhance the UX */
+
+.translucent {
+  opacity: 0.7;
+}
+img:hover {
+  cursor: pointer;
+  filter: brightness(100%) drop-shadow(0px 1px 2px);
+  color: rgb(99, 224, 255);
+  transition: 0.3s ease;
+}
+video:active {
+  color: rgb(99, 224, 255);
+  transform: scale(0.95);
+}
+video:hover {
+  cursor: pointer;
+  filter: brightness(100%) drop-shadow(0px 3px 2px);
+  color: rgb(99, 224, 255);
+  transition: 0.3s ease;
+}
+img:active {
+  color: rgb(99, 224, 255);
+  transform: scale(0.95);
+}
+@media only screen and (max-width: 960px) {
+  .outside {
+    height: 100%;
+    width: 40%;
+  }
+  .outside2 {
+    height: 100%;
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .outside {
+    height: 100%;
+    width: 25%;
+  }
+  .outside2 {
+    height: 100%;
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+    height: 80%;
+    width: 100%;
+    display: block;
+  }
+  .outside {
+    height: 100%;
+    width: 30%;
+  }
+  .outside2 {
+    height: 100%;
+    width: 30%;
+  }
+  .dub-col {
+    height: 100%;
+    width: 0%;
+  }
+  .bot-dub {
+    height: 100%;
+    width: 0%;
+  }
+  .right-col {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  .square {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    margin: 0;
+    background-image: url("images/bg.png"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  .container {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  .outside {
+    height: 100%;
+    width: 0%;
+  }
+  .outside2 {
+    height: 100%;
+    width: 0%;
+  }
+  .low-right {
+    height: 0%;
+    width: 100%;
+  }
+  .right-row {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  .box {
+    height: 100%;
+    width: 100%;
+  }
+}
