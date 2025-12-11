@@ -71,7 +71,7 @@ function playSlap() {
   link.classList.remove("translucent");
   pages.classList.remove("translucent");
 
-  pages.style.filter = "drop-shadow(0px 3px 2px " + colors[0] + ")";
+  pages.style.filter = "drop-shadow(0px 0px 0px )";
 }
 function swapBound() {
   plank.pause();
@@ -277,3 +277,4 @@ function dropShadow() {
     i = 0;
   }
 }
+
