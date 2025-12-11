@@ -36,6 +36,9 @@ const link = document.getElementById("sites");
 var wholeCast = [tori, andre, trina, robbie, cat, beck, jade];
 let x = 0;
 
+var colors = ["#63E0FF", "#e97451", "#d62b3d", "#7f36a9", "#bcff00", "#ec3990"];
+let i = 0;
+
 // declare your functions
 function playSlap() {
   document.getElementById("slap-oh").play();
@@ -67,8 +70,9 @@ function playSlap() {
   wood.classList.remove("translucent");
   link.classList.remove("translucent");
   pages.classList.remove("translucent");
-}
 
+  pages.style.filter = "drop-shadow(0px 3px 2px " + colors[0] + ")";
+}
 function swapBound() {
   plank.pause();
   rex.pause();
@@ -157,6 +161,7 @@ function hotPages() {
   oli.pause();
   wes.pause();
   //pause ALL cast sounds
+  dropShadow();
 
   wholeCast[x].play();
   x = x + 1;
@@ -261,4 +266,14 @@ function siteLinks() {
   site.play();
 
   link.classList.add("translucent");
+}
+function dropShadow() {
+  pages.style.filter = "drop-shadow(0px 3px 2px " + colors[i] + ")";
+
+  i = i + 1;
+  console.log(i);
+
+  if (i > 5) {
+    i = 0;
+  }
 }
