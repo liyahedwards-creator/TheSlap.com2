@@ -5,7 +5,7 @@ The goal was to learn core web development skills while designing an interactive
 
 ## Features
 - Fully custom responsive layout and styling
-- Interactive elements built with vanilla JS
+- Interactive elements built with JS
 - Designed and improved using an iterative development process
 
 ## Process & Documentation
