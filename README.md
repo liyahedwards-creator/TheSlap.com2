@@ -1,6 +1,6 @@
 # TheSlap.com2
 
-This is my first front-end website, built using **HTML**, **CSS**, and **vanilla JavaScript**.
+This is my first front-end website, built using **HTML**, **CSS**, and **JavaScript**.
 The goal was to learn core web development skills while designing an interactive user experience.
 
 ## Features
